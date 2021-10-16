@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+import App from "./props_states_hooks/App";
 
-ReactDOM.render(<p>initial</p>, document.getElementById("root"));
+ReactDOM.render(<App name="Test"/>, document.getElementById("root"));
+
